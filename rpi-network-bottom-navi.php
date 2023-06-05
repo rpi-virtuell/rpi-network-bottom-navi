@@ -1,5 +1,12 @@
 <?php
-
+/*
+Plugin Name: RPI Network Footer Navi
+Plugin URI: https://github.com/rpi-virtuell/rpi-network-bottom-navi
+Description: Zeigt einen RPI Netzwerk footer an
+Version: 1.0
+Author: Daniel Reintanz
+Author URI: https://github.com/FreelancerAMP
+*/
 class RpiNetworkBottomNavi
 {
     private $version;
