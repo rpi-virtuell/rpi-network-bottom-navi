@@ -5,26 +5,34 @@
     z-index: 999;
     max-height: 40px;
     margin: 0 auto;
+    background-color: #0072aa;
     background-color: var(--paletteColor1) !important;
     text-align: center;
     border-top: var(--borderBottom);
 }
-.rpi-footer-menu ul{
+
+.rpi-footer-menu ul {
     display: inline-flex;
+    margin-top: 3px !important;
 }
-.rpi-footer-menu a{
+
+.rpi-footer-menu a {
+    color: white;
     color: var(--paletteColor8) !important;
 
 }
+
 .rpi-footer-menu a:hover {
+    color: red;
     color: var(--paletteColor2) !important;
 
 }
 
 @media only screen and (max-width: 600px) {
-    .rpi-footer-menu ul{
-margin: 5px 0 !important;
+    .rpi-footer-menu ul {
+        margin: 5px 0 !important;
     }
+
     .rpi-footer-menu span {
         display: none;
     }
