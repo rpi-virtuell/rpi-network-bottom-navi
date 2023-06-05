@@ -1,0 +1,20 @@
+/*BOTTOM Menu*/
+div[data-location="footer:builder_panel_bottom-row"], div[data-row="bottom"]{
+    position:fixed;
+    bottom: -1px;
+    width: 100%;
+    z-index:999;
+    max-height:40px;
+
+}
+#footer.ct-footer{
+    margin-bottom:80px;
+}
+@media only screen and (max-width: 600px) {
+    #menu-rpi-bottom-nav-1 span{
+        display:none;
+    }
+    .mobile-menu #menu-rpi-bottom-nav span{
+        display:block;
+    }
+}
