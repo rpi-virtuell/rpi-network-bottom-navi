@@ -11,10 +11,10 @@
 }
 
 
-
 .rpi-footer-menu ul {
     display: inline-flex;
     margin-top: 3px !important;
+    padding: 0 !important;
 }
 
 .rpi-footer-menu a {
@@ -27,21 +27,23 @@
 
 }
 
-.rpi-footer-menu.no-blocksy{
+.rpi-footer-menu.no-blocksy {
     background-color: #0072aa !important;
 }
 
-.rpi-footer-menu.no-blocksy a{
+.rpi-footer-menu.no-blocksy a {
     color: white !important;
 }
-.rpi-footer-menu.no-blocksy a:hover{
+
+.rpi-footer-menu.no-blocksy a:hover {
     color: red !important;
     text-decoration-line: none;
 }
 
-.rpi-footer-menu.no-blocksy ul{
+.rpi-footer-menu.no-blocksy ul {
     list-style-type: none;
     margin: 5px 0 !important;
+    padding: 0 !important;
 }
 
 

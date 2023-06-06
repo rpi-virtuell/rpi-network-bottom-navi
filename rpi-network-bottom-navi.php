@@ -4,7 +4,7 @@
 Plugin Name: RPI Network Footer Navi
 Plugin URI: https://github.com/rpi-virtuell/rpi-network-bottom-navi
 Description: Zeigt einen RPI Netzwerk footer an
-Version: 1.0
+Version: 1.1
 Author: Daniel Reintanz
 Author URI: https://github.com/FreelancerAMP
 */
@@ -15,7 +15,7 @@ class RpiNetworkBottomNavi
 
     public function __construct()
     {
-        $this->version = '1.0';
+        $this->version = '1.1';
 
         //TODO check for blocksy theme to prevent empty css vars
         add_action('wp_enqueue_scripts', array($this, 'enqueue_styles'));
