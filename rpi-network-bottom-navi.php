@@ -94,33 +94,33 @@ class RpiNetworkBottomNavi
 
 
                         <ul>
-                            <li><a href="https://rpi-virtuell.de"><i class="dashicons dashicons-admin-home"
+                            <li><a href="https://rpi-virtuell.de"><i class="dashicons dashicons-admin-home" title="rpi-virtuell"
                                     ></i><span>Home</span></a></li>
-                            <li><a href="https://material.rpi-virtuell.de/"><i
+                            <li><a href="https://material.rpi-virtuell.de/" title="rpi-virtuell Materialpool"><i
                                             class=" dashicons dashicons-category"
                                     ></i><span>Material</span></a></li>
-                            <li><a href="https://news.rpi-virtuell.de/"><i
+                            <li><a href="https://news.rpi-virtuell.de/" title="rpi-virtuell News"><i
                                             class=" dashicons dashicons-rss"
                                             aria-hidden="true"></i><span>News</span></a>
                             </li>
-                            <li><a href="https://element.rpi-virtuell.de/"><i
+                            <li><a href="https://element.rpi-virtuell.de/" title="rpi-virtuell messenger"><i
                                             class=" dashicons dashicons-format-chat"
                                     ></i><span>Messenger</span></a></li>
-                            <li><a href="https://reliverse.social"><i
+                            <li><a href="https://reliverse.social" title="rpi-virtuell mastodon"><i
                                             class=" dashicons dashicons-share-alt"
                                     ></i><span>Reliverse</span></a></li>
-                            <li><a href="https://blogs.rpi-virtuell.de/"><i
+                            <li><a href="https://blogs.rpi-virtuell.de/" title="rpi-virtuell Blogs"><i
                                             class="dashicons dashicons-admin-multisite"
                                     ></i><span>Blogs</span></a></li>
-                            <li><a href="https://cloud.rpi-virtuell.de/"><i
+                            <li><a href="https://cloud.rpi-virtuell.de/" title="rpi-virtuell Cloud"><i
                                             class=" dashicons dashicons-cloud"
                                     ></i><span>Cloud</span></a>
                             </li>
-                            <li><a href="https://konto.rpi-virtuell.de/"><i
+                            <li><a href="https://konto.rpi-virtuell.de/" title="rpi-virtuell Account"><i
                                             class="dashicons dashicons-admin-network"
                                     ></i><span>Account</span></a>
                             </li>
-                            <li><a href="https://hilfe.rpi-virtuell.de//"><i
+                            <li><a href="https://hilfe.rpi-virtuell.de//" title="rpi-virtuell Hilfe"><i
                                             class="dashicons dashicons-editor-help"
                                     ></i><span>Hilfe</span></a>
                             </li>
