@@ -7,9 +7,7 @@
     margin: 0 auto;
     text-align: center;
     border-top: var(--borderBottom);
-
     background-color: var(--paletteColor1) !important;
-    color: var(--paletteColor8) !important;
 }
 
 
@@ -21,7 +19,7 @@
 
 .rpi-footer-menu a {
     padding: 0 10px !important;
-
+    color: var(--paletteColor8) !important;
 }
 
 .rpi-footer-menu a:hover {
