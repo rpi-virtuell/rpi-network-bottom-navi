@@ -5,11 +5,14 @@
     z-index: 999;
     max-height: 40px;
     margin: 0 auto;
-    background-color: #0072aa;
-    background-color: var(--paletteColor1) !important;
     text-align: center;
     border-top: var(--borderBottom);
+
+    background-color: var(--paletteColor1) !important;
+    color: var(--paletteColor8) !important;
 }
+
+
 
 .rpi-footer-menu ul {
     display: inline-flex;
@@ -17,15 +20,30 @@
 }
 
 .rpi-footer-menu a {
-    color: white;
-    color: var(--paletteColor8) !important;
+    padding: 0 10px !important;
 
 }
 
 .rpi-footer-menu a:hover {
-    color: red;
     color: var(--paletteColor2) !important;
 
+}
+
+.rpi-footer-menu.no-blocksy{
+    color: white !important;
+    background-color: #0072aa !important;
+}
+
+.rpi-footer-menu.no-blocksy a:hover{
+    color: red !important;
+}
+
+.rpi-footer-menu.no-blocksyul{
+    list-style-type: none;
+}
+
+.rpi-footer-menu.no-blocksy li{
+    padding: 0 5px;
 }
 
 @media only screen and (max-width: 600px) {
