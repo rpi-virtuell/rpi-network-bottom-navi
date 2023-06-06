@@ -43,6 +43,7 @@
 
 .rpi-footer-menu.no-blocksy ul{
     list-style-type: none;
+    margin: 5px 0 !important;
 }
 
 
