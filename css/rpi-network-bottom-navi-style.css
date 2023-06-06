@@ -30,21 +30,21 @@
 }
 
 .rpi-footer-menu.no-blocksy{
-    color: white !important;
     background-color: #0072aa !important;
 }
 
+.rpi-footer-menu.no-blocksy a{
+    color: white !important;
+}
 .rpi-footer-menu.no-blocksy a:hover{
     color: red !important;
+    text-decoration-line: none;
 }
 
-.rpi-footer-menu.no-blocksyul{
+.rpi-footer-menu.no-blocksy ul{
     list-style-type: none;
 }
 
-.rpi-footer-menu.no-blocksy li{
-    padding: 0 5px;
-}
 
 @media only screen and (max-width: 600px) {
     .rpi-footer-menu ul {
