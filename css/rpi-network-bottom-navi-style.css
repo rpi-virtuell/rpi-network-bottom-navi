@@ -32,6 +32,7 @@
 }
 
 .rpi-footer-menu.no-blocksy a {
+    padding: 0 !important;
     color: white !important;
 }
 
@@ -40,14 +41,26 @@
     text-decoration-line: none;
 }
 
+.rpi-footer-menu.no-blocksy span, .rpi-footer-menu.no-blocksy i {
+    margin: 3px 1px !important;
+}
+
+.rpi-footer-menu.no-blocksy li {
+    margin: 0 auto !important;
+}
+
 .rpi-footer-menu.no-blocksy ul {
     list-style-type: none;
-    margin: 5px 0 !important;
-    padding: 0 !important;
+    margin: 5px auto !important;
+    padding: 5px 0 !important;
+    width: 60%;
 }
 
 
 @media only screen and (max-width: 600px) {
+    .rpi-footer-menu.no-blocksy ul {
+        width: 100%;
+    }
     .rpi-footer-menu ul {
         margin: 5px 0 !important;
     }
